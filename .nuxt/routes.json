@@ -1,0 +1,53 @@
+[
+  {
+    "name": "theatre",
+    "path": "/theatre",
+    "component": "/home/teamxgroup/Documents/GIt/Nuxt/Test/Test/pages/theatre.vue",
+    "chunkName": "pages/theatre",
+    "_name": "_72f7df60"
+  },
+  {
+    "path": "/videos",
+    "component": "/home/teamxgroup/Documents/GIt/Nuxt/Test/Test/pages/videos.vue",
+    "chunkName": "pages/videos",
+    "children": [
+      {
+        "name": "videos",
+        "path": "",
+        "component": "/home/teamxgroup/Documents/GIt/Nuxt/Test/Test/pages/videos/index.vue",
+        "chunkName": "pages/videos/index",
+        "_name": "_482cc462"
+      },
+      {
+        "path": ":id",
+        "component": "/home/teamxgroup/Documents/GIt/Nuxt/Test/Test/pages/videos/_id.vue",
+        "chunkName": "pages/videos/_id",
+        "children": [
+          {
+            "name": "videos-id",
+            "path": "",
+            "component": "/home/teamxgroup/Documents/GIt/Nuxt/Test/Test/pages/videos/_id/index.vue",
+            "chunkName": "pages/videos/_id/index",
+            "_name": "_cf2e4366"
+          },
+          {
+            "name": "videos-id-edit",
+            "path": "edit",
+            "component": "/home/teamxgroup/Documents/GIt/Nuxt/Test/Test/pages/videos/_id/edit.vue",
+            "chunkName": "pages/videos/_id/edit",
+            "_name": "_1b707142"
+          }
+        ],
+        "_name": "_30f7116c"
+      }
+    ],
+    "_name": "_cd405dc2"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/teamxgroup/Documents/GIt/Nuxt/Test/Test/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_53b2f15b"
+  }
+]
